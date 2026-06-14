@@ -1,4 +1,3 @@
-*Note for Institutional Reviewers:* The complete boundary matrices, 21D phase configurations, and internal convergence parameters are retained within the author's proprietary suite as a Proof of Concept protection layer (see Zenodo DOI: 10.5281/zenodo.20528522). Formal academic collaboration is required for structural deployment.
 #  The Special Theory of Dark Matter (STDM): How Vacuum Elasticity Replaces Hidden Mass
 
 **Author:** Aleksandr Moiseenko, Independent Researcher  
