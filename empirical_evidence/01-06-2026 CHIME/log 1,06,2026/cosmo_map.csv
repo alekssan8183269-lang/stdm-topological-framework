@@ -1,0 +1,22 @@
+Filename;DM;Redshift_z;Distance_Mpc;Velocity_kms;Lookback_Gyr;Dark_Matter_g_cm2;Num_Needles;Anomaly_Score
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;0.00;0.0000;0.00;0.0;0.000;0.00e+00 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;50.00;0.0000;0.00;0.0;0.000;0.00e+00 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;100.00;0.0300;132.81;8858.9;0.429;6.37e-04 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;150.00;0.1000;435.19;28487.1;1.360;2.23e-03 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;200.00;0.1700;726.86;46685.6;2.202;3.82e-03 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;250.00;0.2300;1007.67;61189.7;2.966;5.42e-03 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;300.00;0.3000;1277.64;76898.4;3.659;7.01e-03 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;350.00;0.3600;1500.47;89382.3;4.204;8.60e-03 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;400.00;0.4300;1750.62;102878.0;4.787;1.02e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;450.00;0.4900;1956.81;113591.7;5.246;1.18e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;500.00;0.5500;2155.61;123573.5;5.671;1.34e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;550.00;0.6100;2347.27;132874.8;6.066;1.50e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;600.00;0.6800;2562.14;142931.6;6.491;1.66e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;650.00;0.7400;2739.13;150923.4;6.827;1.82e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;700.00;0.8000;2909.76;158380.9;7.141;1.98e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;750.00;0.8600;3074.29;165344.3;7.433;2.14e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;800.00;0.9300;3258.88;172893.5;7.750;2.29e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;850.00;0.9900;3411.09;178910.8;8.003;2.45e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;900.00;1.0600;3581.98;185446.4;8.278;2.61e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;950.00;1.1200;3723.01;190665.9;8.497;2.77e-02 г/см²;56;98.327
+exposure_20181119_20181120_transit_U_beam_FWHM-600_res_4s_0.86_arcmin.npz;1000.00;1.1800;3859.25;195560.3;8.704;2.93e-02 г/см²;56;98.327

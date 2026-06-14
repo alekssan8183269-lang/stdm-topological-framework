@@ -1,0 +1,4 @@
+Filename,DM,Redshift_z,Distance_Mpc,Velocity_kms,Lookback_Gyr,Dark_Matter_g_cm2,Num_Needles,Anomaly_Score
+FRB20180910A_waterfall_converted.npz,0.00,0.0000,0.00,0.0,0.000,0.00e+00 г/см²,0,0.000
+FRB20200418A_waterfall_converted.npz,0.00,0.0000,0.00,0.0,0.000,0.00e+00 г/см²,0,0.000
+FRB20201223A_waterfall_converted.npz,0.00,0.0000,0.00,0.0,0.000,0.00e+00 г/см²,0,0.000

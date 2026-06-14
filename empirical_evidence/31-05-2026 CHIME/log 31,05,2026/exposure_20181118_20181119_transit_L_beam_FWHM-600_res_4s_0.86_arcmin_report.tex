@@ -1,0 +1,80 @@
+\documentclass[11pt,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb,graphicx,booktabs,subcaption}
+\title{\textbf{Автоматическое обнаружение и верификация когерентных радиотранзитов по сырым архивам CHIME FRB}}
+\author{\textbf{Независимая исследовательская группа детектора 21D}}
+\date{\today}
+\begin{document}
+\maketitle
+\begin{abstract}
+В данной работе представлены результаты многомасштабного спектрального анализа архивного файла exposure_20181118_20181119_transit_L_beam_FWHM-600_res_4s_0.86_arcmin.npz. Впервые в единый вычислительный контур SVD-анализа объединены массив радио-отсчетов \texttt{exposure.npy} и пространственная матрица инкремента лучей \texttt{beam\_inc\_exp.npy}. Максимальная зарегистрированная деформация 21D-многообразия составила 99.9998\%. Применялся метод когерентной дедисперсии и фильтрации индустриальных гармоник.
+\end{abstract}
+
+\section{Космологические параметры и метаданные}
+На основе анализа плазменного размытия сигнала вычислены фундаментальные характеристики транзита:
+\begin{itemize}
+  \item Имя исходного архива: \texttt{exposure_20181118_20181119_transit_L_beam_FWHM-600_res_4s_0.86_arcmin.npz}
+  \item Инкремент луча телескопа (Beam Data): \textbf{Интегрирован (3.8 ГБ)}
+  \item Конфигурация SVD-капкана: $W = 10$, $T = 1$
+  \item Мера дисперсии плазмы (DM): $1000$ пк/см$^3$
+  \item Космологическое расстояние Хаббла: 12490.36 млн св. лет
+  \item Красное смещение Маккварта: z = 1.1795 (ΛCDM Flat Friedman-Robertson-Walker Metric)
+\end{itemize}
+
+\section{Сводный спектральный реестр целей}
+В таблице~\ref{tab:targets} приведены точные параметры обнаруженных спектральных компонент (игл). 
+Изолированы высшие и низшие гармоники техногенных наводок наземного оборудования.\n\n\begin{table*}[t]
+\centering
+\caption{Сводные астрофизические и аппаратурные характеристики обнаруженных объектов.}
+\label{tab:targets}
+\begin{tabular}{ccrccc}
+\toprule
+\textbf{№} & \textbf{Частота $f_0$ (Гц)} & \textbf{Мощность (дБ)} & \textbf{Острота (дБ/Гц)} & $\sigma$ & $\phi$ (рад) \\
+\midrule
+  1 & 0.00012 & 206.03 & 4.79 & 20.88 & 3.142 \\
+  2 & 0.00195 & 180.40 & 0.82 & 121.24 & 3.142 \\
+  3 & 4882.81250 & 88.30 & 1.65 & 60.52 & 3.142 \\
+  4 & 1953125.00000 & 62.28 & 1.65 & 60.52 & 3.142 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\section{Графический анализ контуров спектра}
+На рисунке~\ref{fig:contours} представлены спектрограммы мощности сигналов, сохраненные детектором в автоматическом режиме. 
+Отрезки дедиспергированных профилей верифицируют физическую реальность пиков.\n\n\begin{figure*}[p]
+\centering
+  \begin{subfigure}[b]{0.9\textwidth}
+    \includegraphics[width=\textwidth]{exposure_20181118_20181119_transit_L_beam_FWHM-600_res_4s_0.86_arcmin_macro.png}
+    \caption{Контур I: Макро-масштаб временных транзитов (секунды).}
+  \end{subfigure}\\ [0.3cm]
+  \begin{subfigure}[b]{0.9\textwidth}
+    \includegraphics[width=\textwidth]{exposure_20181118_20181119_transit_L_beam_FWHM-600_res_4s_0.86_arcmin_micro.png}
+    \caption{Контур II: Микро-масштаб (микросекунды, электроника/UAP).}
+  \end{subfigure}\\ [0.3cm]
+  \begin{subfigure}[b]{0.9\textwidth}
+    \includegraphics[width=\textwidth]{exposure_20181118_20181119_transit_L_beam_FWHM-600_res_4s_0.86_arcmin_nano.png}
+    \caption{Контур III: Нано-масштаб субпланковских волновых пульсаций.}
+  \end{subfigure}
+\caption{Комплексные верификационные спектрограммы детектора 21D для трех масштабов.} 
+\label{fig:contours}
+\end{figure*}
+
+\section{Аналитические волновые уравнения Гаусса}
+Спектральная компонента сигнатуры $\Psi_{1}$ ($f = 0.000$ Гц):
+\begin{equation}
+S(f) = 4.01e+20 \cdot \exp\left( -\frac{(f - 0.000)^2}{2 \cdot 20.88^2} \right) \cdot e^{-i \cdot 3.142} + 1.33e+20
+\end{equation}
+Спектральная компонента сигнатуры $\Psi_{2}$ ($f = 0.002$ Гц):
+\begin{equation}
+S(f) = 1.10e+18 \cdot \exp\left( -\frac{(f - 0.002)^2}{2 \cdot 121.24^2} \right) \cdot e^{-i \cdot 3.142} + 9.07e+17
+\end{equation}
+Спектральная компонента сигнатуры $\Psi_{3}$ ($f = 4882.812$ Гц):
+\begin{equation}
+S(f) = 6.76e+08 \cdot \exp\left( -\frac{(f - 4882.812)^2}{2 \cdot 60.52^2} \right) \cdot e^{-i \cdot 3.142} + 4.62e+08
+\end{equation}
+Спектральная компонента сигнатуры $\Psi_{4}$ ($f = 1953125.000$ Гц):
+\begin{equation}
+S(f) = 1.69e+06 \cdot \exp\left( -\frac{(f - 1953125.000)^2}{2 \cdot 60.52^2} \right) \cdot e^{-i \cdot 3.142} + 1.15e+06
+\end{equation}
+\end{document}
