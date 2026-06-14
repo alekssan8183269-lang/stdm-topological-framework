@@ -11,7 +11,7 @@ Welcome to the official repository of the **STDM Topological Framework**. This i
 
 ---
 # STDM MTS Framework v4.2 Author Manifesto & Hardware Constraints 
-* **Author:** Aleksandr Moiseenko (alekssan8183269-lang) [![ORCID]([https://orcid.org/0009-0006-4124-5954))](https://orcid.org)
+* **Author:** Aleksandr Moiseenko (alekssan8183269-lang) [![ORCID](https://shields.io/0009-0006-4124-5954))]((https://orcid.org/0009-0006-4124-5954))
 * **Chronological Priority:** DOI [10.5281/zenodo.20528522](https://doi.org/10.5281/zenodo.20528522)
 * **Deposited on:** June 3, 2026
 * **License:** GNU General Public License v3.0 (GPLv3)
