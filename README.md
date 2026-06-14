@@ -5,7 +5,7 @@
 
 | 3D Vacuum Shear Tomography (STDM) | FRB Signal Analysis (Waterfall) |
 | :---: | :---: |
-| <img src="empirical_evidence/01-06-2026 CHIME/global_dark_matter_map_20260602_003240.png" width="400" alt="3D Vacuum Shear Tomography"> | <img src="empirical_evidence/Cassini/Figure_10 Юпитер.png" width="400" alt="Jupiter FFT Spectrum Peak Detection (Cassini RPWS)"> |
+| <img src="empirical_evidence/01-06-2026 CHIME/log 1,06,2026/global_dark_matter_map_20260602_003240.png" width="400" alt="3D Vacuum Shear Tomography"> | <img src="empirical_evidence/Cassini/Figure_10 Юпитер.png" width="400" alt="Jupiter FFT Spectrum Peak Detection (Cassini RPWS)"> |
 
 Welcome to the official repository of the **STDM Topological Framework**. This independent research initiative aims to resolve cosmological and galactic-scale constraints (such as flat rotation curves and the core-cusp problem) entirely through the intrinsic quantum elasticity of the spacetime fabric, eliminating the need for hypothetical non-baryonic dark matter particles.
 
