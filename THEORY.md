@@ -19,7 +19,7 @@ The **STDM Framework** discards particle-based dark matter assumptions entirely.
 
 ---
 
-## 💎 2. The Science (For Reviewers): Macroscopic Topological Projection (MTO)
+## 2. The Science (For Reviewers): Macroscopic Topological Projection (MTO)
 
 The STDM framework bridges the sub-Planckian quantum world with large-scale galactic kinematics through a 4-stage cascading interface called **Macroscopic Topological Projection (MTO)**.
 
