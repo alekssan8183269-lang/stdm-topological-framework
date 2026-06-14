@@ -17,17 +17,16 @@ Welcome to the official repository of the **STDM Topological Framework**. This i
 * License: GNU General Public License v3.0 (GPLv3)
 
 ## Core Concepts
-* **Sub-Planckian Vacuum / Субпланковский вакуум:** Governed by the exceptional Lie group $E_{7(7)}$ via non-commutative geometry. / Управляется исключительной группой Ли $E_{7(7)}$ в рамках некоммутативной геометрии.
-* **Macroscopic Topological Projection / Макроскопическая топологическая проекция:** Transition from quantum entanglement networks to galactic scale dynamics via Witten-Kontsevich integrals and KP-2 hierarchy. / Переход от сетей квантовой запутанности к динамике галактических масштабов через интегралы Виттена–Концевича и иерархию КП-2.
-* **Astrophysical Grounding / Астрофизическое заземление:** Validated using the SPARC (Spitzer Photometry and Accurate Rotation Curves) dataset. / Верифицировано с использованием астрофизической базы данных SPARC.
-
+* **Sub-Planckian Vacuum:** Governed by the exceptional Lie group $E_{7(7)}$ via non-commutative geometry.
+* **Macroscopic Topological Projection:** Transition from quantum entanglement networks to galactic scale dynamics via Witten-Kontsevich integrals and KP-2 hierarchy.
+* **Astrophysical Grounding :** Validated using the SPARC (Spitzer Photometry and Accurate Rotation Curves) dataset.
 ---
 
 ## Project Status
 * Official Chronological Priority:
 * Current Version: v1.1 (Working Manuscript).
 * Next Milestone (v1.2):
-** Complete LaTeX typesetting, rigorous dimensional analysis, and academic English translation.
+* ** Complete LaTeX typesetting, rigorous dimensional analysis, and academic English translation.
 ---
 ## IMPORTANT NOTICE: Work-in-Progress & "Hardcoded" Hooks
 Development Status: This code is uploaded "as is" directly from the research frontline. It contains experimental sections, temporary "hardcoded" calibration anchors * **(curl_z = -11.4187, shear_xy = 5.8496), and unoptimized loops.
