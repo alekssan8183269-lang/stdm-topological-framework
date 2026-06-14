@@ -46,10 +46,7 @@ Bug reports, Pull Requests for dynamic SVD tensor scaling, and independent datas
 ## Collaboration & Contribution
 We are looking for theoretical physicists, mathematicians, and Python/C++ developers to help verify the 12 underlying numerical simulation modules and transition from stochastic emulation to deterministic $E_{7(7)}$ matrix transition constraints. Authors of **significant verified contributions** (correction of critical errors in the mathematical framework, successful optimization, or verification of simulation modules) will be formally credited in the "Acknowledgements" section of forthcoming peer-reviewed publications
 
-### Repository Structure & Empirical Proofs
-* `/verification_logs` — Contains raw analytical text logs and LaTeX report matrices showing the exact derived field equations. / Содержит текстовые логи работы прибора и матрицы LaTeX-отчетов с выведенными уравнениями поля.
-* `/plots_and_tomography` — Empirical spectral sweeps (Macro/Micro/Nano scales) and 3D vacuum shear tomography plots generated directly from CHIME and NASA Cassini data. / Эмпирические спектры (Макро/Микро/Нано шкалы) и 3D-карты томографии сдвига вакуума, построенные напрямую по данным CHIME и NASA Cassini.
-
-* For verified execution outputs and derived field relaxation logs, please see the /verification_logs directory. Для ознакомления с подтверждёнными логами работы прибора и выведенными уравнениями перейдите в директорию /verification_logs.
-
-* /legacy_code — An archive of early iterations and exploratory drafts of the algorithm for researchers. / Архив ранних итераций и поисковых набросков алгоритма для исследователей.
+###  Repository Structure & Empirical Proofs
+* `/source_code` — Core functional Python scripts including the transit parser and 21D detectors.
+* `/empirical_evidence` — Unified archive containing empirical spectral sweeps (Macro/Micro/Nano scales), 3D tomography maps (CHIME transit analysis, NASA Cassini Saturn telemetry, and Jupiter radio emission plots), alongside automated verification text logs and PDF reports.
+* `/legacy_code` — Archive of early iterations, research draft scripts, and exploratory algorithmic models.
