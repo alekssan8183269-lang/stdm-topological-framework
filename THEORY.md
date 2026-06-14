@@ -1,7 +1,7 @@
 #  The Special Theory of Dark Matter (STDM): How Vacuum Elasticity Replaces Hidden Mass
 
 **Author:** Aleksandr Moiseenko, Independent Researcher  
-**Official Preprint DOI:** [10.5281/zenodo.20528522](https://doi.org)  
+**Official Preprint DOI:** [10.5281/ZENODO.20528522](https://doi.org)  
 **License:** GPLv3 / CC BY-NC-ND 4.0  
 
 ---
