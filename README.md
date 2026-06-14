@@ -37,12 +37,10 @@ The Logic: Due to severe hardware constraints, the code utilizes aggressive low-
 ## Future Roadmap: Core Analytical Transition
 Active Work-in-Progress TargetThe current version of the DSP pipeline (v4.2) automatically derives a 1D empirical relaxation equation \(\Xi(r)\) inside the console logs. However, the theoretical foundations of the STDM framework dictate that a scalar approach is fundamentally insufficient for a complete non-local vacuum description.
 The framework is actively being refactored to dynamically converge into the Monolithic System of 4 Covariant Vacuum Balance Equations (Section 4.8 of the STDM Manuscript):
-$$a_{\text{obs}}(r) = a_b(r) \cdot \Xi(r)$$
-$$\Xi(r) = \text{Curl}_Z \cdot e^{-\tau \cdot r} + \text{Shear}_{XY} \cdot \frac{1}{r^3}$$
-$$\tau \cdot M_{\text{bar}} = -70.0673 \cdot \log_{10}(M_{\text{bar}}) + 491.1352$$
-$$a_0 = c^2 \cdot \sqrt{\frac{\Lambda_{\text{cosm}}}{3}}$$
-
-\(\begin{cases}a_{\text{obs}}(r)=a_{b}(r)\cdot \Xi (r)\\ \\ \Xi (r)=\text{Curl}_{Z}\cdot e^{-\tau \cdot r}+\text{Shear}_{XY}\cdot \dfrac{1}{r^{3}}\\ \\ \tau \cdot M_{\text{bar}}=-70.0673\cdot \log _{10}(M_{\text{bar}})+491.1352\\ \\ a_{0}=c^{2}\cdot \sqrt{\dfrac{\Lambda _{\text{cosm}}}{3}}\end{cases}\)
+* $$a_{\text{obs}}(r) = a_b(r) \cdot \Xi(r)$$
+* $$\Xi(r) = \text{Curl}_Z \cdot e^{-\tau \cdot r} + \text{Shear}_{XY} \cdot \frac{1}{r^3}$$
+* $$\tau \cdot M_{\text{bar}} = -70.0673 \cdot \log_{10}(M_{\text{bar}}) + 491.1352$$
+* $$a_0 = c^2 \cdot \sqrt{\frac{\Lambda_{\text{cosm}}}{3}}$$
 Collaborative Goal: We are actively seeking advanced Python/C++ developers and mathematical physicists to help map the 20-parameter hydrodynamic vector array directly into this differential system. If you wish to join the core development of the v5.0 matrix layer, please submit a Pull Request or contact the author.
 
 ## Contribution & Feedback
