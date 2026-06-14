@@ -11,10 +11,10 @@ Welcome to the official repository of the **STDM Topological Framework**. This i
 
 ---
 # STDM MTS Framework v4.2 Author Manifesto & Hardware Constraints 
-* Author Aleksandr Moiseenko (alekssan8183269-lang) 
-* Chronological Priority: DOI 10.5281/zenodo.20528522
-* (Deposited on June 3, 2026)
-* License: GNU General Public License v3.0 (GPLv3)
+* **Author:** Aleksandr Moiseenko (alekssan8183269-lang) [![ORCID]([https://orcid.org/0009-0006-4124-5954))](https://orcid.org)
+* **Chronological Priority:** DOI [10.5281/zenodo.20528522](https://doi.org/10.5281/zenodo.20528522)
+* **Deposited on:** June 3, 2026
+* **License:** GNU General Public License v3.0 (GPLv3)
 
 ## Core Concepts
 * **Sub-Planckian Vacuum:** Governed by the exceptional Lie group $E_{7(7)}$ via non-commutative geometry.
