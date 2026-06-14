@@ -57,6 +57,9 @@ a_0 = c^2 \cdot \sqrt{\frac{\Lambda_{\text{cosm}}}{3}}
 \end{cases}
 $$
 
+```math
+\(\begin{cases} a_{\text{obs}}(r) = a_b(r) \cdot \Xi(r) \\ \Xi(r) = \left(\text{Curl}_z\right) \cdot e^{-(\text{Takens}) \cdot r} + \left(\text{Shear}_{xy}\right) \cdot \frac{1}{r^3} \\ \tau \cdot M_{\text{bar}} = -70.0673 \cdot \log_{10}(M_{\text{bar}}) + 491.1352 \\ a_0 = c^2 \cdot \sqrt{\frac{\Lambda_{\text{cosm}}}{3}} \end{cases} \%\%\)MAGIT_PARSER_PROTECT%%```
+
 Collaborative Goal: We are actively seeking advanced Python/C++ developers and mathematical physicists to help map the 20-parameter hydrodynamic vector array directly into this differential system. If you wish to join the core development of the v5.0 matrix layer, please submit a Pull Request or contact the author.
 
 ###  Scientific Novelty & Structural Breakthrough (Unique Approach)
