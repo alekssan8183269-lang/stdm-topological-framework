@@ -10,14 +10,14 @@ Welcome to the official repository of the **STDM Topological Framework**. This i
 * (Deposited on June 3, 2026)
 * License: GNU General Public License v3.0 (GPLv3)
 
-## Core Concepts / Ключевые концепции
+## Core Concepts
 * **Sub-Planckian Vacuum / Субпланковский вакуум:** Governed by the exceptional Lie group $E_{7(7)}$ via non-commutative geometry. / Управляется исключительной группой Ли $E_{7(7)}$ в рамках некоммутативной геометрии.
 * **Macroscopic Topological Projection / Макроскопическая топологическая проекция:** Transition from quantum entanglement networks to galactic scale dynamics via Witten-Kontsevich integrals and KP-2 hierarchy. / Переход от сетей квантовой запутанности к динамике галактических масштабов через интегралы Виттена–Концевича и иерархию КП-2.
 * **Astrophysical Grounding / Астрофизическое заземление:** Validated using the SPARC (Spitzer Photometry and Accurate Rotation Curves) dataset. / Верифицировано с использованием астрофизической базы данных SPARC.
 
 ---
 
-## Project Status / Статус проекта
+## Project Status
 * Official Chronological Priority:
 * Current Version: v1.1 (Working Manuscript).
 * Next Milestone (v1.2):
@@ -48,6 +48,13 @@ Bug reports, Pull Requests for dynamic SVD tensor scaling, and independent datas
 
 ## Collaboration & Contribution
 We are looking for theoretical physicists, mathematicians, and Python/C++ developers to help verify the 12 underlying numerical simulation modules and transition from stochastic emulation to deterministic $E_{7(7)}$ matrix transition constraints. Authors of **significant verified contributions** (correction of critical errors in the mathematical framework, successful optimization, or verification of simulation modules) will be formally credited in the "Acknowledgements" section of forthcoming peer-reviewed publications
+
+## Automated Hardware Artifact & RFI Mitigation (The ADC Filter)
+The core framework contains an intelligent software contour specifically designed to isolate cosmological signals from local instrumentation noise. When processing raw transit baseband streams, the pipeline applies a precise masking matrix targeting systematic clock leaks and sub-harmonics originating from the telescope’s own analog-to-digital converters (ADC) and power supply units (PSU).
+
+### Implemented Hardware Clock References:
+* **200.0 kHz / 2400.0 Hz**: Real-time power supply ripple and bus noise masking templates.
+* **133.33 MHz / 1.953 kHz**: Reference oscillator coherent resonance tracking ("Cassini Effect" compensation).
 
 ###  Repository Structure & Empirical Proofs
 * `/source_code` — Core functional Python scripts including the transit parser and 21D detectors.
