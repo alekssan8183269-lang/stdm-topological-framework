@@ -18,9 +18,9 @@ Welcome to the official repository of the **STDM Topological Framework**. This i
 ---
 
 ## Project Status / Статус проекта
-* **Official Chronological Priority:
-* **Current Version / Текущая версия:** v1.1 (Working Manuscript).
-* **Next Milestone (v1.2):
+* Official Chronological Priority:
+* Current Version: v1.1 (Working Manuscript).
+* Next Milestone (v1.2):
 ** Complete LaTeX typesetting, rigorous dimensional analysis, and academic English translation.
 ---
 ## IMPORTANT NOTICE: Work-in-Progress & "Hardcoded" Hooks
@@ -29,10 +29,10 @@ The Spartan Engineering: This entire 21D Crystalline Matrix pipeline, capable of
 The Logic: Due to severe hardware constraints, the code utilizes aggressive low-* **level optimizations (memory mapping via mmap, native .ravel() zero-copy views, and strict float32 precision) to bypass memory overflows (MemoryError). It runs at C-speed where modern astrophysics clusters choke on unoptimized Python data-structures.
 
 ## Core Capabilities
-* **Multi-Scale 21D Processing: Captures coherent wave-packet dispersion anomalies without invoking hypothetical dark matter particles.
-* **Cross-System Verification: Replicates identical 21D phase-skew signatures at sample ID #4500 across completely independent datasets (CHIME FRB exposures and NASA Cassini Saturn RPWS telemetry).
-* **Symbolic Regression / Символьная регрессия: Automatically derives analytical field equations \(\Xi(r)\) with \(R^2 = 1.0000\) and generates live LaTeX reports. 
-* **(NEW) Customizable DM Grid Tuning / Настройка сетки дисперсии (DM):(EN) The code is highly configurable. The DM searching grid (dm_candidates) is explicitly adjustable. If you possess a more powerful machine (more RAM/CPU cores), you can scale the code up to your requirements: significantly reduce the step size (e.g., step = 1 or 0.5) to squeeze extreme resolution out of the plasma sweeps or "charge" the grid range to any desired astrophysical limits.
+* Multi-Scale 21D Processing: Captures coherent wave-packet dispersion anomalies without invoking hypothetical dark matter particles.
+* Cross-System Verification: Replicates identical 21D phase-skew signatures at sample ID #4500 across completely independent datasets (CHIME FRB exposures and NASA Cassini Saturn RPWS telemetry).
+* Symbolic Regression / Символьная регрессия: Automatically derives analytical field equations \(\Xi(r)\) with \(R^2 = 1.0000\) and generates live LaTeX reports. 
+* (NEW) Customizable DM Grid Tuning / Настройка сетки дисперсии (DM):(EN) The code is highly configurable. The DM searching grid (dm_candidates) is explicitly adjustable. If you possess a more powerful machine (more RAM/CPU cores), you can scale the code up to your requirements: significantly reduce the step size (e.g., step = 1 or 0.5) to squeeze extreme resolution out of the plasma sweeps or "charge" the grid range to any desired astrophysical limits.
 
 ## Future Roadmap: Core Analytical Transition
 Active Work-in-Progress TargetThe current version of the DSP pipeline (v4.2) automatically derives a 1D empirical relaxation equation \(\Xi(r)\) inside the console logs. However, the theoretical foundations of the STDM framework dictate that a scalar approach is fundamentally insufficient for a complete non-local vacuum description.
