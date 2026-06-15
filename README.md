@@ -8,7 +8,7 @@
 | :---: | :---: |
 | <img src="empirical_evidence/01-06-2026 CHIME/log 1,06,2026/global_dark_matter_map_20260602_003240.png" width="400" alt="3D Vacuum Shear Tomography"> | <img src="empirical_evidence/Cassini/Figure_10 Юпитер.png" width="400" alt="Jupiter FFT Spectrum Peak Detection (Cassini RPWS)"> |
 
-Welcome to the official repository of the **STDM Topological Framework**. This independent research initiative aims to resolve cosmological and galactic-scale constraints (such as flat rotation curves and the core-cusp problem) entirely through the intrinsic quantum elasticity of the spacetime fabric, eliminating the need for hypothetical non-baryonic dark matter particles.
+Welcome to the official repository of the **STDM Topological Framework**. This independent research initiative introduces a multi-scale topological framework designed to model galactic-scale constraints (such as flat rotation curves) as an emergent property of spacetime elasticity, providing a mathematical alternative to non-baryonic dark matter models.
 
 ---
 # STDM MTS Framework v4.2 Author Manifesto & Hardware Constraints 
