@@ -69,6 +69,12 @@ Bug reports, Pull Requests for dynamic SVD tensor scaling, and independent datas
 ## Collaboration & Contribution
 We are looking for theoretical physicists, mathematicians, and Python/C++ developers to help verify the 12 underlying numerical simulation modules and transition from stochastic emulation to deterministic $E_{7(7)}$ matrix transition constraints. Authors of **significant verified contributions** (correction of critical errors in the mathematical framework, successful optimization, or verification of simulation modules) will be formally credited in the "Acknowledgements" section of forthcoming peer-reviewed publications
 
+## Data Attribution & Acknowledgements
+
+This independent research framework utilizes open-access raw transit baseband streams and telemetry datasets. The author deeply acknowledges and expresses gratitude to the following teams for their monumental instrumental efforts in mapping the cosmos:
+* **The CHIME Telescope Collaboration** (University of British Columbia, McGill University, University of Toronto, and Queen's University) for the northern sky radio exposures.
+* **NASA/ESA/ASI Cassini-Huygens Mission** and the Planetary Data System (PDS) team for the Saturn and Jupiter RPWS radio emission telemetry.
+
 ## Automated Hardware Artifact & RFI Mitigation (The ADC Filter)
 The core framework contains an intelligent software contour specifically designed to isolate cosmological signals from local instrumentation noise. When processing raw transit baseband streams, the pipeline applies a precise masking matrix targeting systematic clock leaks and sub-harmonics originating from the telescope’s own analog-to-digital converters (ADC) and power supply units (PSU).
 
