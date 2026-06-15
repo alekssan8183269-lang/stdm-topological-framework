@@ -1,6 +1,6 @@
 # stdm-topological-framework
 # Special Theory of Dark Matter (STDM)
-[![Zenodo Preprint(https://zenodo.org)](https://doi.org/10.5281/zenodo.20528522)
+[![Zenodo Preprint](https://shields.io)](https://doi.org/10.5281/zenodo.20528522)
 
 ### Data Visualization
 
